@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Alustaja.cc" />
+    <ClCompile Include="alustusvirhe.cc" />
+    <ClCompile Include="Bittikartta.cc" />
+    <ClCompile Include="esiehtovirhe.cc" />
+    <ClCompile Include="hyodykkeet.cc" />
+    <ClCompile Include="invarianttivirhe.cc" />
+    <ClCompile Include="jalkiehtovirhe.cc" />
+    <ClCompile Include="komentotulkki.cc" />
+    <ClCompile Include="komentovirhe.cc" />
+    <ClCompile Include="koordinaatti.cc" />
+    <ClCompile Include="labyrintti.cc" />
+    <ClCompile Include="logiikkavirhe.cc" />
+    <ClCompile Include="naytto.cc" />
+    <ClCompile Include="nayttovirhe.cc" />
+    <ClCompile Include="rakentaja.cc" />
+    <ClCompile Include="toimintovirhe.cc" />
+    <ClCompile Include="toteuttamaton_virhe.cc" />
+    <ClCompile Include="vaittama.cc" />
+    <ClCompile Include="vaittamavirhe.cc" />
+    <ClCompile Include="virhe.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alustusvirhe.hh" />
+    <ClInclude Include="debug.hh" />
+    <ClInclude Include="hyodykkeet.hh" />
+    <ClInclude Include="include\Alustaja.hh" />
+    <ClInclude Include="include\Bittikartta.hh" />
+    <ClInclude Include="include\esiehtovirhe.hh" />
+    <ClInclude Include="include\include.hh" />
+    <ClInclude Include="include\invarianttivirhe.hh" />
+    <ClInclude Include="include\jalkiehtovirhe.hh" />
+    <ClInclude Include="include\komentotulkki.hh" />
+    <ClInclude Include="include\naytto.hh" />
+    <ClInclude Include="include\rakentaja.hh" />
+    <ClInclude Include="include\vaittamavirhe.hh" />
+    <ClInclude Include="komentovirhe.hh" />
+    <ClInclude Include="koordinaatti.hh" />
+    <ClInclude Include="logiikkavirhe.hh" />
+    <ClInclude Include="luettelotyypit.hh" />
+    <ClInclude Include="nayttorajapinta.hh" />
+    <ClInclude Include="nayttovirhe.hh" />
+    <ClInclude Include="pelirajapinta.hh" />
+    <ClInclude Include="pelitehdas.hh" />
+    <ClInclude Include="toimintovirhe.hh" />
+    <ClInclude Include="toteuttamaton_virhe.hh" />
+    <ClInclude Include="vaittama.hh" />
+    <ClInclude Include="virhe.hh" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88B3A018-A40E-4877-9B44-764702CD197C}</ProjectGuid>
+    <RootNamespace>Harkka_Sorsakivi_Manninen</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

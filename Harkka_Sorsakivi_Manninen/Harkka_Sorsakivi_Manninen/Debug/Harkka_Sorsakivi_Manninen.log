@@ -1,0 +1,13 @@
+﻿Build started 10.4.2015 18:07:05.
+     1>Project "F:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt labyrintti.cc
+         labyrintti.cc
+     1>f:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\labyrintti.cc(124): error C2312: 'Julkinen::Virhe' : is caught by 'Julkinen::Virhe' on line 110
+     1>f:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\labyrintti.cc(162): error C2312: 'Julkinen::Virhe' : is caught by 'Julkinen::Virhe' on line 148
+     1>f:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\labyrintti.cc(193): error C2312: 'Julkinen::Virhe' : is caught by 'Julkinen::Virhe' on line 178
+     1>Done Building Project "F:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.74
