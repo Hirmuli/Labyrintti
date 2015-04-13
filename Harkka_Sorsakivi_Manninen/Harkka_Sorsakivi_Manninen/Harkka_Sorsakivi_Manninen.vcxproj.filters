@@ -75,6 +75,9 @@
     <ClCompile Include="virhe.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OmaPeli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="alustusvirhe.hh">
@@ -150,6 +153,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\vaittamavirhe.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OmaPeli.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

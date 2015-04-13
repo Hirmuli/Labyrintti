@@ -49,7 +49,7 @@ Julkinen
              *
              *  Tämä on määritelty vain, jotta voitaisiin määritellä
              *  olion tila heti luomisen jälkeen.
-             *  \pre -
+             *  \pre - 
              *  \post Näyttörajapinta on tulostustilassa.
 			 *		Poikkeustakuu: Poikkeuksen sattuessa Pelirajapinta-olion 
 			 *			luontiepäonnistui, mistä syytä oliolla ei ole sisäistä 

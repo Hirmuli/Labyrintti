@@ -25,6 +25,7 @@
     <ClCompile Include="logiikkavirhe.cc" />
     <ClCompile Include="naytto.cc" />
     <ClCompile Include="nayttovirhe.cc" />
+    <ClCompile Include="OmaPeli.cpp" />
     <ClCompile Include="rakentaja.cc" />
     <ClCompile Include="toimintovirhe.cc" />
     <ClCompile Include="toteuttamaton_virhe.cc" />
@@ -52,6 +53,7 @@
     <ClInclude Include="luettelotyypit.hh" />
     <ClInclude Include="nayttorajapinta.hh" />
     <ClInclude Include="nayttovirhe.hh" />
+    <ClInclude Include="OmaPeli.h" />
     <ClInclude Include="pelirajapinta.hh" />
     <ClInclude Include="pelitehdas.hh" />
     <ClInclude Include="toimintovirhe.hh" />
