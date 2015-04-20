@@ -8,7 +8,7 @@ Julkinen
 		public Pelirajapinta
 	{
 	public:
-		OmaPeli(int, int);
+		OmaPeli();
 		~OmaPeli();
 
 		virtual bool onkoAlustustilassa() const;
@@ -26,8 +26,6 @@ Julkinen
 		virtual PelaajaTyyppi haeVuorossa();
 
 	private:
-		int i_;
-		int y_;
 		Nayttorajapinta* omanaytto_ = nullptr;
 	};
 }

@@ -7,7 +7,6 @@
 
 #include "include/include.hh"
 
-
 const unsigned int MAX_PARAMETREJA = 4;
 std::string lueArgumentit(std::deque<std::string> parametrit);
 
@@ -88,9 +87,8 @@ int main(int argc, char** argv)
 		std::shared_ptr<Naytto> naytto(
 			new Naytto(koko , 25, 20, debug_naytto));
 		//Luodaan osoitin peliin
-		Julkinen::OmaPeli* peliptr = &luoPeli();
-
-		std::shared_ptr<Julkinen::Pelirajapinta> peli(peliptr);
+		
+		std::shared_ptr<Julkinen::Pelirajapinta> peli(luoPeli());
 		
 		peli->lisaaNaytto(naytto.get());
 		//Luodaan osoitin rakentajaan
@@ -129,7 +127,6 @@ int main(int argc, char** argv)
 				return EXIT_FAILURE;
 			}
 		}
-		/*
 		catch (Julkinen::Virhe virhe)
 		{
 			//Jos debug tilassa heitetään virhe eteenpäin
@@ -143,7 +140,7 @@ int main(int argc, char** argv)
 				std::cerr << "VIRHE: Alustus epaonnistui" << std::endl;
 				return EXIT_FAILURE;
 			}
-		}*/
+		}
 		
 		try
 		{
@@ -168,7 +165,6 @@ int main(int argc, char** argv)
 				return EXIT_FAILURE;
 			}
 		}
-		/*
 		catch (Julkinen::Virhe virhe)
 		{
 			//Jos debug tilassa heitetään virhe eteenpäin
@@ -182,7 +178,7 @@ int main(int argc, char** argv)
 				std::cerr << "VIRHE: Kaynnistys epaonnistui" << std::endl;
 				return EXIT_FAILURE;
 			}
-		}*/
+		}
 
 	}
 	catch(Julkinen::Virhe virhe)
@@ -199,7 +195,7 @@ int main(int argc, char** argv)
 			return EXIT_FAILURE;
 		}
 	}
-	/*
+	
 	catch (Julkinen::Virhe virhe)
 	{
 		//Jos debug tilassa heitetään virhe eteenpäin
@@ -213,7 +209,7 @@ int main(int argc, char** argv)
 			std::cerr << "VIRHE: Tuntematon virhe" << std::endl;
 			return EXIT_FAILURE;
 		}
-	}*/
+	}
 
 	return EXIT_SUCCESS;
 
@@ -253,6 +249,5 @@ std::string lueArgumentit(std::deque<std::string> parametrit)
 
 Julkinen::OmaPeli luoPeli()
 {
-	Julkinen::OmaPeli* Omm = new Julkinen::OmaPeli(2, 3);
-	return *Omm;
+	return new OmaPeli;
 }
