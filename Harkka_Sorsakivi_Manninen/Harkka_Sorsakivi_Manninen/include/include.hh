@@ -20,6 +20,7 @@
 #include "toteuttamaton_virhe.hh"
 #include "virhe.hh"
 #include "debug.hh"
+#include "OmaPeli.h"
 
 //Toteutus
 #include "komentotulkki.hh"

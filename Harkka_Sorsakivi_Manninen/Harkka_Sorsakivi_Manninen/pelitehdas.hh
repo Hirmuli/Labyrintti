@@ -29,7 +29,7 @@ Julkinen
      *  \return Dynaamisesti luotu instanssi luokasta, joka toteuttaa
      *      Labyrintti-pelin.
      */
-   std::unique_ptr<Pelirajapinta> luoPeli(new OmaPeli);
+   std::unique_ptr<Pelirajapinta> luoPeli(new OmaPeli(2,3));
 }
 	
 #endif  // JULKINEN_PELITEHDAS_HH
