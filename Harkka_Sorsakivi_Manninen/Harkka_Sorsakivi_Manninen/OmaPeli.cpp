@@ -24,7 +24,7 @@ bool OmaPeli::onkoAlustustilassa() const
 
 void OmaPeli::maaritaPelialueenKoko(Julkinen::Koordinaatti const& koko)
 {
-
+	_koko = koko;
 }
 void OmaPeli::lisaaPelaaja(PelaajaTyyppi tyyppi, std::string const& nimi, char lyhenne, Julkinen::Koordinaatti const& sijainti)
 {

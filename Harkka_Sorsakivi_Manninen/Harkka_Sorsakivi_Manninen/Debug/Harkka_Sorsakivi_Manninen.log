@@ -1,55 +1,18 @@
-﻿Build started 20.4.2015 14:11:11.
+﻿Build started 29.4.2015 20:38:23.
      1>Project "H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OmaPeli.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OmaPeli.cpp labyrintti.cc
          OmaPeli.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Debug\Harkka_Sorsakivi_Manninen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Debug\Harkka_Sorsakivi_Manninen.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Debug\Harkka_Sorsakivi_Manninen.lib" /MACHINE:X86 Debug\Alustaja.obj
-         Debug\alustusvirhe.obj
-         Debug\Bittikartta.obj
-         Debug\esiehtovirhe.obj
-         Debug\hyodykkeet.obj
-         Debug\invarianttivirhe.obj
-         Debug\jalkiehtovirhe.obj
-         Debug\komentotulkki.obj
-         Debug\komentovirhe.obj
-         Debug\koordinaatti.obj
-         Debug\labyrintti.obj
-         Debug\logiikkavirhe.obj
-         Debug\naytto.obj
-         Debug\nayttovirhe.obj
-         Debug\OmaPeli.obj
-         Debug\rakentaja.obj
-         Debug\toimintovirhe.obj
-         Debug\toteuttamaton_virhe.obj
-         Debug\vaittama.obj
-         Debug\vaittamavirhe.obj
-         Debug\virhe.obj
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::maaritaPelialueenKoko(class Julkinen::Koordinaatti const &)" (?maaritaPelialueenKoko@OmaPeli@Julkinen@@UAEXABVKoordinaatti@2@@Z)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::maaritaPelialueenKoko(class Julkinen::Koordinaatti const &)" (?maaritaPelialueenKoko@OmaPeli@Julkinen@@UAEXABVKoordinaatti@2@@Z)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::lisaaPelaaja(enum Julkinen::PelaajaTyyppi,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char,class Julkinen::Koordinaatti const &)" (?lisaaPelaaja@OmaPeli@Julkinen@@UAEXW4PelaajaTyyppi@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@DABVKoordinaatti@2@@Z)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::lisaaPelaaja(enum Julkinen::PelaajaTyyppi,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char,class Julkinen::Koordinaatti const &)" (?lisaaPelaaja@OmaPeli@Julkinen@@UAEXW4PelaajaTyyppi@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@DABVKoordinaatti@2@@Z)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::lisaaPala(enum Julkinen::PalaTyyppi,unsigned int,class Julkinen::Koordinaatti const &)" (?lisaaPala@OmaPeli@Julkinen@@UAEXW4PalaTyyppi@2@IABVKoordinaatti@2@@Z)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::lisaaPala(enum Julkinen::PalaTyyppi,unsigned int,class Julkinen::Koordinaatti const &)" (?lisaaPala@OmaPeli@Julkinen@@UAEXW4PalaTyyppi@2@IABVKoordinaatti@2@@Z)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::lisaaEsine(char,class Julkinen::Koordinaatti const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?lisaaEsine@OmaPeli@Julkinen@@UAEXDABVKoordinaatti@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::lisaaEsine(char,class Julkinen::Koordinaatti const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?lisaaEsine@OmaPeli@Julkinen@@UAEXDABVKoordinaatti@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::asetaPalanTyyppi(enum Julkinen::ErikoispalaTyyppi,class Julkinen::Koordinaatti const &,class Julkinen::Koordinaatti const &)" (?asetaPalanTyyppi@OmaPeli@Julkinen@@UAEXW4ErikoispalaTyyppi@2@ABVKoordinaatti@2@1@Z)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::asetaPalanTyyppi(enum Julkinen::ErikoispalaTyyppi,class Julkinen::Koordinaatti const &,class Julkinen::Koordinaatti const &)" (?asetaPalanTyyppi@OmaPeli@Julkinen@@UAEXW4ErikoispalaTyyppi@2@ABVKoordinaatti@2@1@Z)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::alustusLopeta(void)" (?alustusLopeta@OmaPeli@Julkinen@@UAEXXZ)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::alustusLopeta(void)" (?alustusLopeta@OmaPeli@Julkinen@@UAEXXZ)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Julkinen::OmaPeli::onkoPelitilassa(void)const " (?onkoPelitilassa@OmaPeli@Julkinen@@UBE_NXZ)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Julkinen::OmaPeli::onkoPelitilassa(void)const " (?onkoPelitilassa@OmaPeli@Julkinen@@UBE_NXZ)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::komentoTyonna(enum Julkinen::Reuna,unsigned int,unsigned int)" (?komentoTyonna@OmaPeli@Julkinen@@UAEXW4Reuna@2@II@Z)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::komentoTyonna(enum Julkinen::Reuna,unsigned int,unsigned int)" (?komentoTyonna@OmaPeli@Julkinen@@UAEXW4Reuna@2@II@Z)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::komentoLiiku(enum Julkinen::Suunta,unsigned int)" (?komentoLiiku@OmaPeli@Julkinen@@UAEXW4Suunta@2@I@Z)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Julkinen::OmaPeli::komentoLiiku(enum Julkinen::Suunta,unsigned int)" (?komentoLiiku@OmaPeli@Julkinen@@UAEXW4Suunta@2@I@Z)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Julkinen::OmaPeli::vaihdaVuoro(void)" (?vaihdaVuoro@OmaPeli@Julkinen@@UAE_NXZ)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Julkinen::OmaPeli::vaihdaVuoro(void)" (?vaihdaVuoro@OmaPeli@Julkinen@@UAE_NXZ)
-     1>labyrintti.obj : error LNK2001: unresolved external symbol "public: virtual enum Julkinen::PelaajaTyyppi __thiscall Julkinen::OmaPeli::haeVuorossa(void)" (?haeVuorossa@OmaPeli@Julkinen@@UAE?AW4PelaajaTyyppi@2@XZ)
-     1>OmaPeli.obj : error LNK2001: unresolved external symbol "public: virtual enum Julkinen::PelaajaTyyppi __thiscall Julkinen::OmaPeli::haeVuorossa(void)" (?haeVuorossa@OmaPeli@Julkinen@@UAE?AW4PelaajaTyyppi@2@XZ)
-     1>H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Debug\Harkka_Sorsakivi_Manninen.exe : fatal error LNK1120: 11 unresolved externals
+     1>h:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\omapeli.cpp(42): error C2572: 'Julkinen::OmaPeli::asetaPalanTyyppi' : redefinition of default parameter : parameter 3
+                 h:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\omapeli.h(20) : see declaration of 'Julkinen::OmaPeli::asetaPalanTyyppi'
+     1>h:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\omapeli.cpp(58): error C2572: 'Julkinen::OmaPeli::komentoLiiku' : redefinition of default parameter : parameter 2
+                 h:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\omapeli.h(24) : see declaration of 'Julkinen::OmaPeli::komentoLiiku'
+         Generating Code...
+         Compiling...
+         labyrintti.cc
+         Generating Code...
      1>Done Building Project "H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:19.87
+Time Elapsed 00:00:21.08

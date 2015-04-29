@@ -29,6 +29,7 @@ Julkinen
 		int i_;
 		int y_;
 		Nayttorajapinta* omanaytto_ = nullptr;
+		Julkinen::Koordinaatti _koko;
 	};
 }
 
