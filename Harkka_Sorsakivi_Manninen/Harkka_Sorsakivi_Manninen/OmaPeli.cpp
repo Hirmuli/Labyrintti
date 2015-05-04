@@ -14,7 +14,7 @@ OmaPeli::~OmaPeli()
 
 void OmaPeli::lisaaNaytto(Nayttorajapinta* naytto)
 {
-	omanaytto_ = naytto;
+	_naytto = naytto;
 }
 
 bool OmaPeli::onkoAlustustilassa() const
@@ -38,7 +38,7 @@ void OmaPeli::lisaaEsine(char merkki, Julkinen::Koordinaatti const& sijainti, st
 {
 
 }
-void OmaPeli::asetaPalanTyyppi(Julkinen::ErikoispalaTyyppi tyyppi, Julkinen::Koordinaatti const& sijainti, Julkinen::Koordinaatti const& kohde = Julkinen::Koordinaatti())
+void OmaPeli::asetaPalanTyyppi(Julkinen::ErikoispalaTyyppi tyyppi, Julkinen::Koordinaatti const& sijainti, Julkinen::Koordinaatti const& kohde)
 {
 
 }
@@ -54,7 +54,7 @@ void OmaPeli::komentoTyonna(Reuna reuna, unsigned int paikka, unsigned int rotaa
 {
 
 }
-void OmaPeli::komentoLiiku(Suunta suunta, unsigned int maara = 0)
+void OmaPeli::komentoLiiku(Suunta suunta, unsigned int maara)
 {
 
 }
@@ -65,5 +65,7 @@ bool OmaPeli::vaihdaVuoro()
 
 PelaajaTyyppi OmaPeli::haeVuorossa()
 {
+	PelaajaTyyppi type = IHMINEN;
 
+	return type;
 }

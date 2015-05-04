@@ -1,18 +1,33 @@
-﻿Build started 29.4.2015 20:38:23.
+﻿Build started 4.5.2015 20:45:43.
      1>Project "H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OmaPeli.cpp labyrintti.cc
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OmaPeli.cpp
          OmaPeli.cpp
-     1>h:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\omapeli.cpp(42): error C2572: 'Julkinen::OmaPeli::asetaPalanTyyppi' : redefinition of default parameter : parameter 3
-                 h:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\omapeli.h(20) : see declaration of 'Julkinen::OmaPeli::asetaPalanTyyppi'
-     1>h:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\omapeli.cpp(58): error C2572: 'Julkinen::OmaPeli::komentoLiiku' : redefinition of default parameter : parameter 2
-                 h:\olio2\harjoitustyö olio 2\harkka_sorsakivi_manninen\harkka_sorsakivi_manninen\omapeli.h(24) : see declaration of 'Julkinen::OmaPeli::komentoLiiku'
-         Generating Code...
-         Compiling...
-         labyrintti.cc
-         Generating Code...
-     1>Done Building Project "H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen.vcxproj" (Build target(s)) -- FAILED.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Debug\Harkka_Sorsakivi_Manninen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Debug\Harkka_Sorsakivi_Manninen.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Debug\Harkka_Sorsakivi_Manninen.lib" /MACHINE:X86 Debug\Alustaja.obj
+         Debug\alustusvirhe.obj
+         Debug\Bittikartta.obj
+         Debug\esiehtovirhe.obj
+         Debug\hyodykkeet.obj
+         Debug\invarianttivirhe.obj
+         Debug\jalkiehtovirhe.obj
+         Debug\komentotulkki.obj
+         Debug\komentovirhe.obj
+         Debug\koordinaatti.obj
+         Debug\labyrintti.obj
+         Debug\logiikkavirhe.obj
+         Debug\naytto.obj
+         Debug\nayttovirhe.obj
+         Debug\OmaPeli.obj
+         Debug\rakentaja.obj
+         Debug\toimintovirhe.obj
+         Debug\toteuttamaton_virhe.obj
+         Debug\vaittama.obj
+         Debug\vaittamavirhe.obj
+         Debug\virhe.obj
+         Harkka_Sorsakivi_Manninen.vcxproj -> H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Debug\Harkka_Sorsakivi_Manninen.exe
+     1>Done Building Project "H:\Olio2\Harjoitustyö Olio 2\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen\Harkka_Sorsakivi_Manninen.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:21.08
+Time Elapsed 00:00:25.13

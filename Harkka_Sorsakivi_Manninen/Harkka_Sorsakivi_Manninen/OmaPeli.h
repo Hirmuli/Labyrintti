@@ -1,5 +1,11 @@
 #pragma once
 #include "pelirajapinta.hh"
+#include "include/include.hh"
+#include "luettelotyypit.hh"
+
+#include <vector>
+#include <iostream>
+
 
 namespace
 Julkinen
@@ -28,8 +34,19 @@ Julkinen
 	private:
 		int i_;
 		int y_;
-		Nayttorajapinta* omanaytto_ = nullptr;
+		Nayttorajapinta* _naytto = nullptr;
 		Julkinen::Koordinaatti _koko;
+
+		struct PelaajaTiedot
+		{
+			Julkinen::PelaajaTyyppi _tyyppi;
+			std::string _nimi;
+			char _merkki;
+			Julkinen::Koordinaatti _sijainti;
+		};
+
+		std::vector<PelaajaTiedot> _pelaajat;
+		unsigned int _pelaajienmaara;
 	};
 }
 

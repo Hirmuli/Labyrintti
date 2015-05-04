@@ -23,7 +23,7 @@ bool debug_naytto = false;
 /*
   luoPeli funktion esittely
 */
-Julkinen::OmaPeli& luoPeli();
+Julkinen::OmaPeli* luoPeli();
 
 
 /**
@@ -88,7 +88,7 @@ int main(int argc, char** argv)
 		std::shared_ptr<Naytto> naytto(
 			new Naytto(koko , 25, 20, debug_naytto));
 		//Luodaan osoitin peliin
-		std::shared_ptr<Julkinen::Pelirajapinta> peli(&luoPeli());
+		std::shared_ptr<Julkinen::Pelirajapinta> peli(luoPeli());
 		
 		peli->lisaaNaytto(naytto.get());
 		//Luodaan osoitin rakentajaan
@@ -247,4 +247,9 @@ std::string lueArgumentit(std::deque<std::string> parametrit)
    }
    
    return palaute;
+}
+
+Julkinen::OmaPeli* luoPeli()
+{
+	return new Julkinen::OmaPeli(1, 2);
 }
